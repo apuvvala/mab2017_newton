@@ -1,0 +1,9 @@
+# This is the SDK template file for simulinktest_demos
+# Copyright 2014 The MathWorks, Inc.
+
+@IFDEF arch
+derived/<ARCH>/toolbox/simulinktest/simulinktestdemos/[DIRS]/[FILES]
+@ENDIF arch
+
+# needed by test/toolbox/simulinktest/simulinktestdemos/Makefile
+toolbox/simulinktest/simulinktestdemos/internal/Makefile
